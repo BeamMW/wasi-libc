@@ -41,7 +41,7 @@ _Noreturn void exit(int code)
 void __wasm_call_dtors(void)
 {
 	__funcs_on_exit();
-	__stdio_exit();
+	//__stdio_exit();
 }
 
 _Noreturn void exit(int code)
